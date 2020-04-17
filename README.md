@@ -1,8 +1,8 @@
-# Predicting emotional valence using wearable fitness tracker and psychometrics tests
+# Infering emotional valence using wearable fitness tracker and psychometrics tests
 
 For a brief explanation of our project you can watch this [video](https://youtu.be/58fUX8AiiNI).<br>
-This project is explained in more detail in our [white paper](https://gitlab.oit.duke.edu/duke-mids/2019-2020/emotional-states/-/blob/master/Documents/Presentations/MIDS-Capstone-Whitepaper.pdf).<br>
-You could have access to the slides used in the video [here](https://gitlab.oit.duke.edu/duke-mids/2019-2020/emotional-states/-/blob/master/Documents/Presentations/Capstone_Final_Presentation.pdf).
+This project is explained in more detail in our [white paper](Documents/Presentations/MIDS-Capstone-Whitepaper.pdf).<br>
+You could have access to the slides used in the video [here](Documents/Presentations/Capstone_Final_Presentation.pdf).
 
 
 ### Background: 
@@ -19,7 +19,6 @@ Second, can we predict if the subject is going to be happier or unhappier than h
 ### Folder Structure:
 * **Code** --- All our code files live here
     * **EDA** --- Files used for data cleaning and EDA, with self-explanatory names
-    * **Old_models** --- Deprecated
     * **Final_Model** --- Scripts used to train, test and select the best model and a notebook plotting the most important feature for each model. The data used for this project is provided.
 * **Papers** --- Related reserach materials
 * **Documents** 
@@ -66,7 +65,7 @@ Also both experiments share basic demographic data in common like:
 - Education 
 - Income
 
-A more detailed description of the data could be consulted on the [Data dictionary](https://gitlab.oit.duke.edu/duke-mids/2019-2020/emotional-states/tree/master/Documents/Data_dictionary)
+A more detailed description of the data could be consulted on the [Data dictionary](Documents/Data_dictionary)
 
 **Experiencing sample**
 
@@ -137,7 +136,7 @@ represents `SubjectID` with the column name *Subject* and only with 4 digits, wh
 The datasets had different shapes and schemas. We joined all the data in a single dataset after we end delimited what data we were going to be useful for our model.
 
 ### Modeling
-A better description of the modeling process could be consulted in our [white paper](https://gitlab.oit.duke.edu/duke-mids/2019-2020/emotional-states/-/blob/master/Documents/Presentations/MIDS-Capstone-Whitepaper.pdf).
+A better description of the modeling process could be consulted in our [white paper](Documents/Presentations/MIDS-Capstone-Whitepaper.pdf).
 
 For this project with trained several models. We tested the recall, precision and f1 score of the different models and we ended up selection the models with the best performance for the following objectives:
 
@@ -146,7 +145,7 @@ Inferring x for **new users** with only **Fitbit data**, where x could be positi
 Inferring x for **current users** using **all data**, where x could be positive/negative emotion or normalized valence binary label.<br>
 Inferring x for **new users** using **all data**, where x could be positive/negative emotion or normalized valence binary label.<br>
 
-A technical document explaining how to run the scripts could be consulted [here](https://gitlab.oit.duke.edu/duke-mids/2019-2020/emotional-states/-/blob/master/Documents/Technical_document/Technical_Document.pdf).<br>
+A technical document explaining how to run the scripts could be consulted [here](Documents/Technical_document/Technical_Document.pdf).<br>
 
 
 ### Conclusions
