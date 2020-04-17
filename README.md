@@ -1,4 +1,4 @@
-# Predicting emotional valence using wearable fitness tracker and psychometrics tests
+# Infering emotional valence using wearable fitness tracker and psychometrics tests
 
 For a brief explanation of our project you can watch this [video](https://youtu.be/58fUX8AiiNI).<br>
 This project is explained in more detail in our [white paper](https://gitlab.oit.duke.edu/duke-mids/2019-2020/emotional-states/-/blob/master/Documents/Presentations/MIDS-Capstone-Whitepaper.pdf).<br>
